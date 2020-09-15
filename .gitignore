@@ -5,3 +5,34 @@ example/bin/ofxPlaylistExampleDebug.app/Contents/Frameworks/
 example/bin/ofxPlaylistExampleDebug.app/Contents/MacOS/
 example/ofxPlaylistExample.xcodeproj/xcuserdata/tim.xcuserdatad/xcschemes/emptyExample.xcscheme~HEAD
 xcdebugger
+exampleTEST/bin/exampleTESTDebug.app/Contents/Frameworks/libfmodex.dylib
+exampleTEST/bin/exampleTESTDebug.app/Contents/Info.plist
+exampleTEST/bin/exampleTESTDebug.app/Contents/MacOS/exampleTESTDebug
+exampleTEST/bin/exampleTESTDebug.app/Contents/PkgInfo
+exampleTEST/bin/exampleTESTDebug.app/Contents/Resources/icon-debug.icns
+exampleTEST/config.make
+exampleTEST/exampleTEST.xcodeproj/project.pbxproj
+exampleTEST/exampleTEST.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+exampleTEST/exampleTEST.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+exampleTEST/exampleTEST.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+exampleTEST/exampleTEST.xcodeproj/project.xcworkspace/xcuserdata/manumolina.xcuserdatad/UserInterfaceState.xcuserstate
+exampleTEST/exampleTEST.xcodeproj/xcshareddata/xcschemes/exampleTEST Debug.xcscheme
+exampleTEST/exampleTEST.xcodeproj/xcshareddata/xcschemes/exampleTEST Release.xcscheme
+exampleTEST/Makefile
+exampleTEST/openFrameworks-Info.plist
+exampleTEST/Project.xcconfig
+simpleExample/simpleExample.xcodeproj/project.pbxproj
+simpleExample/simpleExample.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+simpleExample/simpleExample.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+simpleExample/simpleExample.xcodeproj/project.xcworkspace/xcuserdata/manumolina.xcuserdatad/UserInterfaceState.xcuserstate
+simpleExample/simpleExample.xcodeproj/project.xcworkspace/xcuserdata/tim.xcuserdatad/UserInterfaceState.xcuserstate
+simpleExample/simpleExample.xcodeproj/xcuserdata/tim.xcuserdatad/xcschemes/xcschememanagement.plist
+simpleExample/Project.xcconfig
+simpleExample/openFrameworks-Info.plist
+simpleExample/bin/simpleExampleDebug.app/Contents/Resources/icon-debug.icns
+simpleExample/bin/simpleExampleDebug.app/Contents/PkgInfo
+simpleExample/bin/simpleExampleDebug.app/Contents/MacOS/simpleExampleDebug
+simpleExample/bin/simpleExampleDebug.app/Contents/Info.plist
+simpleExample/bin/simpleExampleDebug.app/Contents/Frameworks/libfmodex.dylib
+simpleExample/Project.xcconfig
+simpleExample/openFrameworks-Info.plist
