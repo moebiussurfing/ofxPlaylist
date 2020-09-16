@@ -54,7 +54,7 @@ void ofApp::draw() {
 		ofTranslate(100, 500);
 
 		float rad = 15;
-		float pad = 20;
+		float pad = 10;
 
 		ofPushStyle();
 		ofFill();
@@ -66,9 +66,10 @@ void ofApp::draw() {
 
 		ofPushStyle();
 		ofFill();
-		int fr = ofGetFrameNum() % 30;
-		if (fr < 15) ofSetColor(200);
-		else ofSetColor(64);
+		ofSetColor(200);
+		//int fr = ofGetFrameNum() % 30;
+		//if (fr < 15) ofSetColor(200);
+		//else ofSetColor(64);
 
 		if (val > 0.8) ofDrawCircle((4 * (pad + rad * 2)) + r.x, r.y, rad);
 		else if (val > 0.6) ofDrawCircle((3 * (pad + rad * 2)) + r.x, r.y, rad);
@@ -102,10 +103,12 @@ void ofApp::keyPressed(int key) {
 
 		using namespace Playlist;
 		
-		float duration = 1000.f;
-		float pause = 600;
+		float duration;
+		float pause;
 
 		//bubble box
+		duration = 500;
+		pause = 200;
 		mainPlaylist.addKeyFrame(Action::tween(duration, &vr.x, vr2.x));
 		mainPlaylist.addToKeyFrame(Action::tween(duration, &vr.y, vr2.y));
 		mainPlaylist.addToKeyFrame(Action::tween(duration, &rw, r2w));
@@ -117,7 +120,9 @@ void ofApp::keyPressed(int key) {
 		//-
 
 		//dots
-		for (int i = 0; i < 10; i++) {
+		duration = 500;
+		pause = 100;
+		for (int i = 0; i < 3; i++) {
 			mainPlaylist.addKeyFrame(Action::tween(0, &val, 1, TWEEN_LIN, TWEEN_EASE_IN_OUT));
 			mainPlaylist.addKeyFrame(Action::tween(duration, &val, 0, TWEEN_LIN, TWEEN_EASE_IN_OUT));
 			mainPlaylist.addKeyFrame(Action::pause(pause));
